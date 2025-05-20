@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Automatic Bedtime Stories</title>
+    <link rel="stylesheet" href="app.css">
+    <link href="https://fonts.googleapis.com/css2?family=Delius&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=moon_stars,rocket_launch" />
+    
+
+</head>
+<body>
+    <div class="frame">
+        <div class="menu">
+            <p>Press for story</p>
+            <form action="/story" method="get">
+            <button>
+                <span class="material-symbols-outlined">
+                    <!-- moon_stars -->
+                     rocket_launch
+                </span>
+            </button>
+            </form>
+        </div>
+
+        <div class="right-panel">
+            <h1>Bedtime Story Generator</h1>
+                <div class="storyboard">
+                    <img src="startup_img.png" alt="A collection of bedtime-themed illustrations, including a star, a stuffed animal puppy, a sun with a sleeping hat, and clouds."/>
+                    <p class="story">
+                        <%= message %>
+                    </p>
+                </div>
+        </div>
+    </div>
+
+</body>
+</html> 
