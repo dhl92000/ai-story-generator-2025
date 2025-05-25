@@ -12,5 +12,5 @@ Users can press the button to generate a story that's displayed on a simple inte
 This project was made with Express.js. The input for the OpenAI language model is located in a request handler and is as follows: "Write a 6 sentence bedtime story about a cute animal". 
 
 ## Future Features
-Using the image API to generate  a new image based on the initially generated story.
-The OpenAPI also has a speech feature to turn text into naturally sounding speech.
+- Using the image API to generate  a new image based on the initially generated story.
+- The OpenAPI also has a speech feature to turn text into naturally sounding speech.
